@@ -1,0 +1,451 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 767px) {
+
+/* Styles */
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+	font-size: 15px;
+}
+
+.mobile-hide {
+	display: none;
+}
+
+.desktop-hide {
+  display: block;
+}
+
+
+
+
+#main-header, #section7, #section6 {
+	height: auto;
+	padding: 100px 0;
+}
+
+.main-header {
+  padding: 0;
+  background: none;
+  height: auto
+}
+
+#main-header {
+  background: url(../img/main-header-bg-tablet.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#snow-image, #snow2-image, #ticket-snow, #ticket-bird {
+  display: none;
+}
+
+#section1 {
+    padding: 150px 0 100px;
+    position: relative;
+}
+
+
+#section2, #section3, #section4, #section8, #betsec4 {
+    padding: 100px 0;
+    position: relative;
+}
+
+
+
+#section3 .img-fluid.mx-auto {
+    position: relative;
+}
+
+#section3 h3, #section6 h1 {
+    font-size: 50px;
+}
+
+#betsec1 h1 {
+  font-size: 20px !important;
+}
+#betsec3 p {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center !important;
+}
+
+.cd-nav-trigger {
+	display: none !important;
+}
+
+.desktop-language {
+  display: none;
+}
+
+.mobile-language {
+  display: block;
+  z-index: 1;
+}
+
+.cube {
+  max-width: 600px;
+}
+
+
+
+#section1 .flower-right {
+    bottom: -58px;
+    width: 250px;
+}
+
+#betsec1 {
+    -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+
+.dl-buttons {
+    margin-top: 10px;
+}
+
+#section7 h4 {
+    width: 200px;
+}
+
+
+.img-fluid.mx-auto.dl-1 {
+    padding: 20px;
+}
+
+.h-pad {
+    padding: 100px 0 0;
+}
+
+#betsec2 .flower-left {
+    top: -70px;
+}
+
+#betsec2 .flower-right {
+    bottom: -90px;
+
+}
+
+#section6 {
+  background: url(../img/sec6-bg.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+#section6 .ticket-building{
+  display: none;
+}
+
+#betsec4 .flower-right {
+    top: -167px;
+    max-width: 50%;
+}
+
+
+
+}
+
+@media only screen and (max-width: 375px) {
+  #betsec4 .flower-right {
+    top: -95px;
+    max-width: 50%;
+}
+
+  }
+
+@media only screen and (max-device-width: 1024px) {
+  .m-list {
+  display: block ;
+}
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-device-width : 768px) and (max-device-width : 1023px){
+/* Styles */
+#section7, #section6 {
+  height: auto;
+  padding: 150px 0;
+}
+
+#section1, #section2, #section3 {
+    padding: 150px 0;
+}
+
+.main-header {
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+    height: auto;
+    padding: 100px 0;
+}
+
+
+#main-header {
+  padding: 0;
+}
+
+.mobile-language {
+  display: block;
+  margin-top: 50px;
+}
+
+.touch .cd-nav-trigger {
+  display: none;
+}
+
+#main-header h1 span {
+    font-size: 20px;
+}
+
+#main-header h1 {
+    font-size: 24px !important;
+}
+
+#section1 .flower-left {
+    max-width: 70%;
+}
+
+#section1 .flower-right {
+    max-width: 50%;
+    bottom: -90px;
+}
+
+#section2 h1 {
+  font-size: 50px;
+}
+
+#betsec1, #section7 {
+    -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+#betsec2 .flower-left {
+    top: -170px;
+}
+
+#betsec2 .flower-right {
+    bottom: -195px;
+}
+
+#section3 h3 {
+    font-size: 45px;
+}
+
+#section3 .img-fluid.mx-auto {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+#betsec3 h1 {
+    font-size: 20px;
+}
+
+#betsec3 p {
+    position: initial;
+}
+
+#section6 {
+  background: url(../img/sec6-bg.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+#section6 .ticket-building{
+  display: none;
+}
+
+#ticket-snow, #ticket-bird {
+  display: none;
+}
+
+#section7 h1 {
+    font-size: 30px;
+}
+
+#section7 h1 span {
+    font-size: 45px;
+}
+
+.dl-buttons {
+    margin-top: 320px;
+}
+
+#betsec4 .flower-right {
+    top: -195px;
+    max-width: 50%;
+}
+
+
+.desktop-language {
+  display: none;
+}
+
+
+}
+
+
+
+
+@media only screen (min-device-width : 1023px) and (max-device-width : 1024px) {
+
+
+#section7, #section6 {
+  height: auto;
+  padding: 150px 0;
+}
+
+#section1, #section2, #section3 {
+    padding: 150px 0;
+}
+
+.main-header {
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+    height: auto;
+    padding: 100px 0;
+}
+
+
+#main-header {
+  padding: 0;
+}
+
+.mobile-language {
+  display: block;
+  margin-top: 50px;
+}
+
+.touch .cd-nav-trigger {
+  display: none;
+}
+
+#main-header h1 span {
+    font-size: 20px;
+}
+
+#main-header h1 {
+    font-size: 24px !important;
+}
+
+#section1 .flower-left {
+    max-width: 70%;
+}
+
+#section1 .flower-right {
+    max-width: 50%;
+    bottom: -118px;
+}
+
+#section2 h1 {
+  font-size: 50px;
+}
+
+#betsec1, #section7 {
+    -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+#betsec2 .flower-left {
+    top: -170px;
+}
+
+#betsec2 .flower-right {
+    bottom: -195px;
+}
+
+#section3 h3 {
+    font-size: 45px;
+}
+
+#section3 .img-fluid.mx-auto {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+#betsec3 h1 {
+    font-size: 20px;
+}
+
+#betsec3 p {
+    position: initial;
+}
+
+#section6 {
+  background: url(../img/sec6-bg.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+#section6 .ticket-building{
+  display: none;
+}
+
+#ticket-snow, #ticket-bird {
+  display: none;
+}
+
+#section7 h1 {
+    font-size: 30px;
+}
+
+#section7 h1 span {
+    font-size: 45px;
+}
+
+.dl-buttons {
+    margin-top: 420px;
+}
+
+#betsec4 .flower-right {
+    top: -195px;
+    max-width: 50%;
+}
+
+
+.desktop-language {
+  display: none;
+}
+
+
+}
+
+
+  }
