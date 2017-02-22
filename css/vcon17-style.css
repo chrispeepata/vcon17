@@ -182,7 +182,7 @@ MAIN HEADER
   background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
-  padding: 200px 0;
+  padding: 100px 0;
   height: 100vh;
 }
 
@@ -204,6 +204,10 @@ MAIN HEADER
 #main-header .desktop-language {
   color: #fff;
   padding-top: 40px; 
+}
+
+.countdown {
+  margin-bottom: 30px;
 }
 /*******************************
 
