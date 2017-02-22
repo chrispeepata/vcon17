@@ -33,7 +33,7 @@ h4 {
 }
 
 p {
-  font-family: 'Overpass', sans-serif; 
+  font-family: 'Overpass', sans-serif;
 }
 
 .row {
@@ -51,7 +51,7 @@ UNIVERSAL
 float: right;
 }
 .h-pad {
-padding: 100px 0; 
+padding: 100px 0;
 }
 .pad-bot {
 padding-bottom: 20px;
@@ -74,7 +74,7 @@ text-align: center;
 }
 
 #section1, #section2 {
-  padding: 200px 0;  
+  padding: 200px 0;
   position: relative;
 }
 
@@ -88,7 +88,7 @@ text-align: center;
 
 
 .align-items-center {
-  
+
 }
 
 
@@ -211,7 +211,7 @@ MAIN HEADER
 
 #main-header .desktop-language {
   color: #fff;
-  padding-top: 40px; 
+  padding-top: 40px;
 }
 /*******************************
 
@@ -370,7 +370,7 @@ SECTION 4
     filter: grayscale(100%);
 }
 
-.w-list .item .img-fluid {
+.w-list .item .img-responsive {
   height: 468px;
 }
 
@@ -752,7 +752,7 @@ SIDE NAVIGATION
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -765,9 +765,9 @@ Modules - reusable parts of our design
   white-space: nowrap;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 #cd-vertical-nav ul{
@@ -1061,4 +1061,3 @@ Main components
     bottom: 40px;
   }
 }
-
