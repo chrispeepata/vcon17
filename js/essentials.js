@@ -175,6 +175,3 @@ AOS.init({
 AOS.init({
       disable: 'mobile'
     });
-
-//# PARALAX MULTI_LAYERED
-
