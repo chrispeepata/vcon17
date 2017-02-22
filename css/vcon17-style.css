@@ -356,19 +356,18 @@ SECTION 4
 }
 
 .w-list .item {
-  cursor: pointer;
-  display: inline-block;
-  flex-wrap: wrap;
-  height: 330px;
-  left: 0 !important;
-  margin: 0 -19px;
-  opacity: 0.9;
-  position: relative;
-  width: 55%;
+    cursor: pointer;
+    display: inline-block;
+    flex-wrap: wrap;
+    left: 0 !important;
+    margin: 0 -49px;
+    position: relative;
+    width: 100%;
+    filter: grayscale(100%);
 }
 
 .w-list .item .img-fluid {
-  height: 290px;
+  height: 468px;
 }
 
 .w-list .item:nth-child(1) {
@@ -436,7 +435,7 @@ z-index: 104;
 .w-list .vp-name {
   display: block;
   font-size: 14px;
-  left: -50%;
+  left: 0;
   position: absolute;
   top: -80px;
   transition: all 0.35s ease-in-out 0s;
@@ -445,7 +444,7 @@ z-index: 104;
 }
 
 .w-list .item:hover {
-  opacity: 1;
+  filter: none;
   transition: all 0.35s ease-in-out 0s; -moz-transition: all 0.35s ease-in-out 0s; -ms-transition: all 0.35s ease-in-out 0s; -o-transition: all 0.35s ease-in-out 0s;-webkit-transition: all 0.35s ease-in-out 0s;
 }
 
