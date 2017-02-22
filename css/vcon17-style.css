@@ -364,14 +364,13 @@ SECTION 4
     display: inline-block;
     flex-wrap: wrap;
     left: 0 !important;
-    margin: 0 -49px;
+    margin: 0;
     position: relative;
     width: 100%;
     filter: grayscale(100%);
 }
 
 .w-list .item .img-responsive {
-  height: 468px;
 }
 
 .w-list .item:nth-child(1) {
@@ -437,12 +436,13 @@ z-index: 104;
 }
 
 .w-list .vp-name {
-  display: block;
+  display: table;
   font-size: 14px;
-  left: 0;
+  left: 8%;
+  margin: 0 0 0 -69%;
   position: absolute;
   top: -80px;
-  visibility: hidden;
+  visibility: hidden;;
   width: 200px;
 }
 
