@@ -33,7 +33,7 @@ h4 {
 }
 
 p {
-  font-family: 'Overpass', sans-serif; 
+  font-family: 'Overpass', sans-serif;
 }
 /*******************************
 
@@ -47,7 +47,7 @@ UNIVERSAL
 float: right;
 }
 .h-pad {
-padding: 100px 0; 
+padding: 100px 0;
 }
 .pad-bot {
 padding-bottom: 20px;
@@ -70,7 +70,7 @@ text-align: center;
 }
 
 #section1, #section2 {
-  padding: 200px 0;  
+  padding: 200px 0;
   position: relative;
 }
 
@@ -203,7 +203,7 @@ MAIN HEADER
 
 #main-header .desktop-language {
   color: #fff;
-  padding-top: 40px; 
+  padding-top: 40px;
 }
 
 .countdown {
@@ -639,7 +639,7 @@ SIDE NAVIGATION
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -652,9 +652,9 @@ Modules - reusable parts of our design
   white-space: nowrap;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 #cd-vertical-nav ul{
@@ -746,7 +746,7 @@ Main components
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  z-index: 999;
+  z-index: 995;
 }
 .no-touch #cd-vertical-nav li {
   text-align: right;
@@ -948,4 +948,3 @@ Main components
     bottom: 40px;
   }
 }
-

@@ -11,6 +11,11 @@ NAVIGATION
   position: relative;
   height: 100%;
   -webkit-overflow-scrolling: touch;
+  z-index: 999;
+}
+
+.pure-container > #navDraw {
+  z-index: 995;
 }
 
 /************
@@ -174,6 +179,9 @@ NAVIGATION
   -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out;
   width: 100%;
+}
+
+.pure-drawer:target {
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -524,7 +532,7 @@ IMAGE HOVER
 
 /*****************
 
- ICONS + TRANSITIONS 
+ ICONS + TRANSITIONS
 
  *****************/
 
@@ -869,8 +877,8 @@ SNS FOOTER
   height: 100%;
   border-radius: 50%;
   content: '';
-  -webkit-box-sizing: content-box; 
-  -moz-box-sizing: content-box; 
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -1183,14 +1191,7 @@ body[data-aos-delay='200'] [data-aos]{
 /*# sourceMappingURL=aos.css.map*/
 
 
-
-
-
-
-
-
-
-
-
-
-
+.pure-drawer:target {
+  transform: translate3d(0px, 0px, 0px) !important;
+visibility: visible;
+}
