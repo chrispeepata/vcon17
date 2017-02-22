@@ -370,7 +370,8 @@ SECTION 4
     filter: grayscale(100%);
 }
 
-.w-list .item .img-responsive {
+.w-list .item img {
+  height: auto;
 }
 
 .w-list .item:nth-child(1) {
