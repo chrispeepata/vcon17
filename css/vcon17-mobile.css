@@ -75,7 +75,7 @@ p {
 }
 
 #betsec1 h1 {
-  font-size: 20px !important;
+  font-size: 50px !important;
 }
 #betsec3 p {
     position: relative;
@@ -161,8 +161,17 @@ p {
     max-width: 50%;
 }
 
+.w-list {
+  display: none;
+}
 
+.m-list img{
+  padding-bottom: 20px;
+}
 
+#main-header img.img-responsive.center, #section3 img.img-responsive.center {
+    max-width: 80%;
+}
 }
 
 @media only screen and (max-width: 375px) {
@@ -177,6 +186,27 @@ p {
   .m-list {
   display: block ;
 }
+  .mobile-hide {
+    display: none;
+  }
+
+  #main-header .col-md-6 {
+    margin: 0 auto;
+}
+  p {
+    font-size: 18px;
+  }
+
+  .w-list {
+    display: none;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+  .desktop-hide {
+    display: block;
+  }
 }
 
 
@@ -297,7 +327,7 @@ p {
   }
 
   .dl-buttons {
-      margin-top: 320px;
+      margin-top: 70px;
   }
 
   #betsec4 .flower-right {
@@ -309,6 +339,10 @@ p {
   .desktop-language {
     display: none;
   }
+
+  #section8 {
+    padding: 100px 0;
+}
 
 
 }
@@ -355,12 +389,30 @@ p {
   }
 
   .dl-buttons {
-    margin-top: 450px;
+    margin-top: 70px;
   }
 
   .touch .cd-nav-trigger {
     display: none;
   }
+  .desktop-language {
+    display: none;
+  }
+  .mobile-language {
+    display: block;
+  }
+  .dropdown-content {
+    left: 435px;
+  }
+
+  #main-header img.img-responsive.center, #section3 img.img-responsive.center {
+    max-width: 80%;
+  }
+  #section8 {
+    padding: 100px 0 200px;
+}
+
+}
 
 
 
@@ -498,4 +550,20 @@ p {
 }
 
 
+@media (max-height : 800px) {
+  .main-header {
+    background: url(../img/rocket.png) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    height: auto;
   }
+  #section6, #section7 {
+    padding: 150px 0;
+    height: auto;
+}
+}
+

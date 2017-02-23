@@ -157,6 +157,7 @@ span.dropbtn, a span.dropbtn {
 
 .mobile-language {
   display: none;
+  z-index: 999;
 }
 
 
@@ -212,6 +213,24 @@ MAIN HEADER
 #main-header .desktop-language {
   color: #fff;
   padding-top: 40px;
+  z-index: 1;
+}
+
+.row.align-items-center {
+    display: flex;
+}
+
+.row.align-items-center.col-md-3 {
+    
+}
+
+.desktop-language a{
+  color: #fff;
+  font-weight: 700;
+}
+
+.desktop-language a.active {
+  color: #FFF500;
 }
 /*******************************
 
@@ -767,6 +786,24 @@ BETWEET SECTIONS
 }
 
 
+.panel-default > .panel-heading {
+    background-color: transparent;
+}
+
+.panel-heading {
+    padding: 0;
+}
+
+.panel-default {
+    border-color: transparent;
+}
+
+.panel {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
 /*******************************
 
 SIDE NAVIGATION
@@ -880,7 +917,7 @@ Main components
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  z-index: 999;
+  z-index: 900;
 }
 .no-touch #cd-vertical-nav li {
   text-align: right;
