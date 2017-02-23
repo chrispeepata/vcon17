@@ -172,6 +172,42 @@ p {
 #main-header img.img-responsive.center, #section3 img.img-responsive.center {
     max-width: 80%;
 }
+
+.pure-toggle-label .pure-toggle-icon:after {
+    transform: translate3d(-50%, 6px, 0) !important;
+    -webkit-transform: translate3d(-50%, 6px, 0) !important;
+}
+
+.pure-toggle-label .pure-toggle-icon:before {
+    transform: translate3d(-50%, -9px, 0) !important;
+    -webkit-transform: translate3d(-50%, -9px, 0) !important;
+}
+
+.pure-toggle-label .pure-toggle-icon {
+    transform: translate3d(-50%, -8px, 0) !important;
+    -webkit-transform: translate3d(-50%, -8px, 0) !important;
+}
+
+.pure-toggle-label .pure-toggle-icon, .pure-toggle-label .pure-toggle-icon:before, .pure-toggle-label .pure-toggle-icon:after {
+    top: 67% !important;
+    left: 50% !important;
+    height: 3px !important;
+    width: 19px !important;
+}
+
+.pure-toggle-label[data-toggle-label='right'] {
+    right: 10px !important;
+    left: auto !important;
+}
+
+.pure-toggle-label {
+    width: 45px !important;
+    height: 45px !important;
+}
+
+
+
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -207,6 +243,10 @@ p {
   .desktop-hide {
     display: block;
   }
+  #return-to-top span {
+    font-size: 34px;
+    font-weight: 700;
+}
 }
 
 
@@ -417,8 +457,10 @@ p {
 
 
 
-@media only screen (min-device-width : 1023px) and (max-device-width : 1024px) {
-
+@media only screen (min-device-width : 1023px)  {
+.touch .cd-nav-trigger {
+    display: none;
+  }
 
 #section7, #section6 {
   height: auto;
@@ -547,6 +589,43 @@ p {
 }
 
 
+
+}
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) {
+  .main-header {
+    background: url(../img/rocket.png) no-repeat bottom center scroll;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+    background-attachment: fixed;
+    padding: 100px 0;
+    height: auto;
+}
+#ticket-bird {
+    display: none;
+  }
+  #ticket-snow {
+    display: none;
+  }
+
+
+
+  #betsec1, #section6, #section7 {
+    height: auto;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+  }
+
+  .dl-buttons {
+    margin-top: 50px;
+}
+
 }
 
 
@@ -556,6 +635,7 @@ p {
   }
   #section6, #section7 {
     height: auto;
-}
+  }
+
 }
 
