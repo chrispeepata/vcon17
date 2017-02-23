@@ -630,6 +630,29 @@ SECTION 8
 #section8 .panel-body a:hover, #section8 .panel-body a:active{
   text-decoration: none;
 }
+
+/*******************************
+
+INNER SECTION
+
+*******************************/
+.inner-section {
+  background: url(../img/inner-bg.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 50px 0 300px;
+  background-attachment: fixed;
+  position: relative;
+}
+
+
+.news-section h1{
+  padding-bottom: 30px;
+}
+
+
 /*******************************
 
 BETWEET SECTIONS
@@ -652,6 +675,7 @@ BETWEET SECTIONS
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  height: auto;
 }
 
 #betsec1 h4 {
@@ -819,11 +843,9 @@ Main components
 @media only screen and (min-width: 768px) {
   .cd-section h1 {
     font-size: 30px;
-    font-size: 1.875rem;
   }
   .cd-section p {
     font-size: 20px;
-    font-size: 1.25rem;
     line-height: 2;
   }
 }
@@ -919,7 +941,6 @@ Main components
   padding: .4em .5em;
   color: #57CAEB;
   font-size: 14px;
-  font-size: 0.875rem;
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
   -moz-transition: -moz-transform 0.2s, opacity 0.2s;
   transition: transform 0.2s, opacity 0.2s;
