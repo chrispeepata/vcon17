@@ -172,7 +172,7 @@ MAIN HEADER
     top: 20px;
     left: 20px;
     position: fixed;
-    z-index: 1;
+    z-index: 4;
 }
 
 #main-header {
@@ -221,7 +221,7 @@ MAIN HEADER
 }
 
 .row.align-items-center.col-md-3 {
-    
+
 }
 
 .desktop-language a{
