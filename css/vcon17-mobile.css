@@ -552,17 +552,9 @@ p {
 
 @media (max-height : 800px) {
   .main-header {
-    background: url(../img/rocket.png) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 0;
     height: auto;
   }
   #section6, #section7 {
-    padding: 150px 0;
     height: auto;
 }
 }
