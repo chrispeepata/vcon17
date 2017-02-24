@@ -97,6 +97,16 @@ text-align: center;
 NAVIGATIONS
 
 *******************************/
+#share {
+    position: fixed;
+    top: 40%;
+    z-index: 999;
+}
+
+.jssocials-share {
+    display: block !important;
+    margin: 0.3em 0.6em 0.3em 1.3em !important;
+}
 
 /* Dropdown */
 .dropdown-content {
