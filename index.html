@@ -12,7 +12,6 @@
     <title>V-Malaysia 2017</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/vcon17-style.css">
-
     <link rel="stylesheet" href="css/vcon17-mobile.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/vcon17-components.css">
@@ -165,7 +164,18 @@
     <div id="main-header">
         <div class="main-header fullscreen background parallax" data-img-width="1600" data-img-height="1064" data-diff="100">
             <div class="center countdown">
-                <div id="defaultCountdown"></div>
+                <div class="dig"><span class="days"></span>
+                    <label>days</label>
+                </div>
+                <div class="dig"><span class="hours"></span>
+                    <label>hours</label>
+                </div>
+                <div class="dig"><span class="minutes"></span>
+                    <label>mins</label>
+                </div>
+                <div class="dig"><span class="seconds"></span>
+                    <label>secs</label>
+                </div>
             </div>
             <div class="container">
                 <div class="row align-items-center">
@@ -711,17 +721,8 @@
     <!-- SIDENAV -->
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/sidenav.js"></script>
-    <script type="text/javascript" src="js/jquery-countdown.js"></script>
-    <script type="text/javascript">
-    $(function () {
-    	var austDay = new Date();
-    	austDay = new Date(2017, 6-1, 01)
-
-    	$('#defaultCountdown').countdown({until: austDay, timezone: +8});
-    	$('#year').text(austDay.getFullYear());
-    });
-    </script>
     <!-- END SIDENAV -->
+
     <!-- ANIMATION / PARALLAX -->
     <script src="js/essentials.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>

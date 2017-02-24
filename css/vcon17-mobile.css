@@ -237,6 +237,16 @@ p {
     bottom: 3% !important;
 }
 
+.dig label {
+    font-size: 15px;
+}
+
+
+.dig span {
+    font-size: 25px;
+}
+
+
 
 }
 
