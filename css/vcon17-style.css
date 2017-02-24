@@ -927,7 +927,7 @@ Main components
 
 .no-touch #cd-vertical-nav {
   position: fixed;
-  right: -132px;
+  right: 40px;
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
@@ -938,7 +938,7 @@ Main components
   z-index: 900;
 }
 .no-touch #cd-vertical-nav li {
-  text-align: left;
+  text-align: right;
 }
 .no-touch #cd-vertical-nav a {
   display: inline-block;
@@ -952,7 +952,7 @@ Main components
   clear: both;
 }
 .no-touch #cd-vertical-nav a span {
-  float: left;
+  float: right;
   display: inline-block;
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
