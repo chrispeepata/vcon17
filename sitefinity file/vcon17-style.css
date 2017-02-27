@@ -95,7 +95,7 @@ text-align: center;
   display: flex;
   -ms-align-items: center;
   align-items: center;
-  
+
 }
 
 /*******************************
@@ -219,7 +219,7 @@ MAIN HEADER
 }
 
 #main-header {
-  background: url(../img/main-header-bg.jpg) no-repeat bottom center scroll;
+  background: url(/images/default-source/vcon17/main-header-bg.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -228,7 +228,7 @@ MAIN HEADER
 }
 
 .main-header {
-  background: url(../img/rocket.png) no-repeat bottom center scroll;
+  background: url(/images/default-source/vcon17/rocket.png) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -553,7 +553,7 @@ SECTION 6
 
 *******************************/
 #section6 {
-  background: url(../img/ticket_1.jpg) no-repeat center center scroll;
+  background: url(/images/default-source/vcon17/ticket_1.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -596,7 +596,7 @@ SECTION 7
 
 *******************************/
 #section7 {
-  background: url(../img/sec7-bg.jpg) no-repeat bottom center scroll;
+  background: url(/images/default-source/vcon17/sec7-bg.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -700,7 +700,7 @@ INNER SECTION
 
 *******************************/
 .inner-section {
-  background: url(../img/inner-bg.jpg) no-repeat center center scroll;
+  background: url(/images/default-source/vcon17/inner-bg.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -733,7 +733,7 @@ BETWEET SECTIONS
 
 
 #betsec1 {
-  background: url(../img/inbet1-bg.jpg) no-repeat bottom center scroll;
+  background: url(/images/default-source/vcon17/inbet1-bg.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -943,7 +943,7 @@ Main components
   bottom: 20px;
   width: 38px;
   height: 44px;
-  background: url("../img/cd-arrow-bottom.svg") no-repeat center center;
+  background: url("/images/default-source/vcon17/cd-arrow-bottom.svg") no-repeat center center;
 }
 
 /* No Touch devices */
@@ -951,7 +951,7 @@ Main components
   display: none;
 }
 
-.no-touch #cd-vertical-nav {
+#cd-vertical-nav {
   position: fixed;
   right: 40px;
   top: 50%;
@@ -963,21 +963,21 @@ Main components
   transform: translateY(-50%);
   z-index: 900;
 }
-.no-touch #cd-vertical-nav li {
+#cd-vertical-nav li {
   text-align: right;
 }
-.no-touch #cd-vertical-nav a {
+#cd-vertical-nav a {
   display: inline-block;
   /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-.no-touch #cd-vertical-nav a:after {
+#cd-vertical-nav a:after {
   content: "";
   display: table;
   clear: both;
 }
-.no-touch #cd-vertical-nav a span {
+#cd-vertical-nav a span {
   float: right;
   display: inline-block;
   -webkit-transform: scale(0.6);
@@ -986,14 +986,14 @@ Main components
   -o-transform: scale(0.6);
   transform: scale(0.6);
 }
-.no-touch #cd-vertical-nav a:hover span {
+#cd-vertical-nav a:hover span {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -o-transform: scale(1);
   transform: scale(1);
 }
-.no-touch #cd-vertical-nav a:hover .cd-label {
+#cd-vertical-nav a:hover .cd-label {
   opacity: 1;
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1001,10 +1001,10 @@ Main components
   -o-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
 }
-.no-touch #cd-vertical-nav a.is-selected .cd-dot {
+#cd-vertical-nav a.is-selected .cd-dot {
   background-color: white !important;
 }
-.no-touch #cd-vertical-nav .cd-dot {
+#cd-vertical-nav .cd-dot {
   position: relative;
   /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
   top: 8px;
@@ -1021,7 +1021,7 @@ Main components
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
-.no-touch #cd-vertical-nav .cd-label {
+#cd-vertical-nav .cd-label {
   position: relative;
   margin-right: 10px;
   padding: .4em .5em;
