@@ -428,7 +428,6 @@ SECTION 4
     left: 0 !important;
     margin: 0;
     position: relative;
-    width: 100%;
     filter: grayscale(100%);
 }
 
@@ -1025,8 +1024,9 @@ Main components
   position: relative;
   margin-right: 10px;
   padding: .4em .5em;
-  color: #57CAEB;
+  color: #fff;
   font-size: 14px;
+  background-color: #57CAEB; 
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
   -moz-transition: -moz-transform 0.2s, opacity 0.2s;
   transition: transform 0.2s, opacity 0.2s;
