@@ -256,7 +256,7 @@ MAIN HEADER
 #main-header .desktop-language {
   color: #fff;
   padding-top: 40px;
-  z-index: 1;
+  z-index: 999;
 }
 
 .row.align-items-center {
