@@ -9,13 +9,12 @@ NAVIGATION
 **************/
 .pure-container {
   position: relative;
-  height: 100%;
   -webkit-overflow-scrolling: touch;
-  z-index: 9999;
+  z-index: 99;
   overflow: auto;
 }
 
-.pure-container > #navDraw {
+#navDraw {
   z-index: 9999;
   overflow: auto;
 }
@@ -34,13 +33,34 @@ NAVIGATION
   color: #1fc08e;
 }
 
-.pure-toggle-label {
-  display: none;
+.naviMenu {
   cursor: pointer;
   display: block;
   position: fixed;
   top: 15px;
-  z-index: 99;
+  right: 18px;
+  z-index: 999;
+  color: #57CAEB;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: all 400ms ease-in-out;
+          transition: all 400ms ease-in-out;
+  border: 2px solid #57CAEB;
+  border-radius: 50%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.pure-toggle-label {
+  cursor: pointer;
+  display: block;
+  position: fixed;
+  top: 15px;
+  z-index: 999;
   color: #57CAEB;
   width: 70px;
   height: 70px;
@@ -59,6 +79,47 @@ NAVIGATION
 .pure-toggle-label:hover {
   border-color: #1fc08e;
   color: #1fc08e;
+}
+
+.pure-toggle-label:hover .pure-toggle-icon,
+.pure-toggle-label:hover .pure-toggle-icon:before,
+.pure-toggle-label:hover .pure-toggle-icon:after {
+  background-color: #1fc08e;
+}
+
+.naviMenu:active {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.naviMenu .pure-toggle-icon,
+.naviMenu .pure-toggle-icon:before,
+.naviMenu .pure-toggle-icon:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 4px;
+  width: 35px;
+  cursor: pointer;
+  background: #57CAEB;
+  display: block;
+  content: '';
+  -webkit-transition: all 500ms ease-in-out;
+          transition: all 500ms ease-in-out;
+}
+
+.naviMenu .pure-toggle-icon {
+  transform: translate3d(-50%, -4px, 0);
+  -webkit-transform: translate3d(-50%, -4px, 0);
+}
+
+.naviMenu .pure-toggle-icon:before {
+  transform: translate3d(-51%, -14px, 0);
+  -webkit-transform: translate3d(-51%, -14px, 0);
+}
+
+.naviMenu .pure-toggle-icon:after {
+  transform: translate3d(-51%, 10px, 0);
+  -webkit-transform: translate3d(-51%, 10px, 0);
 }
 
 .pure-toggle-label:hover .pure-toggle-icon,
@@ -171,8 +232,9 @@ NAVIGATION
   top: 0;
   left: 0;
   z-index: 1;
-  height: 100%;
+  height: 100vh;
   visibility: hidden;
+  -webkit-overflow-scrolling: touch;
   background-color: #2E5396;
   -webkit-transition-property: all;
           transition-property: all;
@@ -184,6 +246,9 @@ NAVIGATION
 }
 
 .pure-drawer:target {
+  height: 100vh;
+  visibility: visible;
+  display: block;
 }
 
 @media only screen and (min-width: 40.063em) {
