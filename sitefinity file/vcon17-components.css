@@ -16,7 +16,7 @@ NAVIGATION
 }
 
 .pure-container > #navDraw {
-  z-index: 995;
+  z-index: 9999;
   overflow: auto;
 }
 
@@ -1088,7 +1088,7 @@ SNS FOOTER
   transform-style: preserve-3d;
     text-align: center;
   margin: 0 auto 40px;
-  z-index: 9999 ;
+  z-index: 9998 ;
   position: relative;
 
 }

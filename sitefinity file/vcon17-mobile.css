@@ -1,0 +1,706 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 767px) {
+
+/* Styles */
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 15px !important;
+}
+
+.mobile-hide {
+  display: none;
+}
+
+.desktop-hide {
+  display: block;
+}
+
+#main-header, #section7, #section6 {
+  height: auto;
+  padding: 100px 0;
+}
+
+.main-header {
+  padding: 0;
+  background: none;
+  height: auto
+}
+
+#main-header {
+  background: url(/images/default-source/vcon17/main-header-bg-tablet.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#main-header .img-fluid {
+    padding: 30px;
+}
+
+#snow-image, #snow2-image, #ticket-snow, #ticket-bird {
+  display: none;
+}
+
+#section1 {
+    padding: 150px 0 100px;
+    position: relative;
+}
+
+
+#section2, #section3, #section4, #section8, #betsec4 {
+    padding: 100px 0;
+    position: relative;
+}
+
+
+
+#section3 .img-fluid.mx-auto {
+    position: relative;
+}
+
+#section3 h3, #section6 h1 {
+    font-size: 40px;
+}
+
+#betsec1 h1 {
+  font-size: 45px !important;
+}
+#betsec3 p {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center !important;
+}
+
+.cd-nav-trigger {
+  display: none !important;
+}
+
+.desktop-language {
+  display: none;
+}
+
+.mobile-language {
+  display: block;
+  z-index: 1;
+}
+
+.cube {
+  max-width: 600px;
+}
+
+
+
+#section1 .flower-right {
+    bottom: -58px;
+    width: 250px;
+}
+
+#betsec1 {
+    -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+
+.dl-buttons {
+    margin-top: 10px;
+}
+
+#section7 h4 {
+    width: 200px;
+}
+
+
+.img-fluid.mx-auto.dl-1 {
+    padding: 20px;
+}
+
+.h-pad {
+    padding: 100px 0 0;
+}
+
+#betsec2 .flower-left {
+    top: -70px;
+}
+
+
+#section6 {
+  background: url(/images/default-source/vcon17/sec6-bg.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+#section6 .ticket-building{
+  display: none;
+}
+
+#betsec4 .flower-right {
+    top: -167px;
+    max-width: 50%;
+}
+
+.w-list {
+  display: none;
+}
+
+.m-list img{
+  padding-bottom: 20px;
+}
+
+#main-header img.img-responsive.center, #section3 img.img-responsive.center {
+    max-width: 80%;
+}
+
+.pure-toggle-label .pure-toggle-icon:after {
+    transform: translate3d(-50%, 6px, 0) !important;
+    -webkit-transform: translate3d(-50%, 6px, 0) !important;
+}
+
+.pure-toggle-label .pure-toggle-icon:before {
+    transform: translate3d(-50%, -9px, 0) !important;
+    -webkit-transform: translate3d(-50%, -9px, 0) !important;
+}
+
+.pure-toggle-label .pure-toggle-icon {
+    transform: translate3d(-50%, -8px, 0) !important;
+    -webkit-transform: translate3d(-50%, -8px, 0) !important;
+}
+
+.pure-toggle-label .pure-toggle-icon, .pure-toggle-label .pure-toggle-icon:before, .pure-toggle-label .pure-toggle-icon:after {
+    top: 67% !important;
+    left: 50% !important;
+    height: 3px !important;
+    width: 19px !important;
+}
+
+.pure-toggle-label[data-toggle-label='right'] {
+    right: 10px !important;
+    left: auto !important;
+}
+
+.pure-toggle-label {
+    width: 45px !important;
+    height: 45px !important;
+}
+
+#return-to-top {
+    right: 20px !important;
+}
+
+#return-to-top p {
+    font-size: 14px;
+}
+
+
+.m-list .vp-name {
+    padding: 20px 15px 0 15px;
+    font-size: 15px;
+}
+
+.jssocials-share {
+    display: block !important;
+    margin: 0.3em 0.6em 0.3em 0 !important;
+}
+
+.m-list .col-xs-6, .m-list .col-sm-6 {
+  padding: 0;
+}
+
+
+#betsec3 h1 {
+    font-size: 20px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding: 0;
+}
+
+#share {
+    bottom: 3% !important;
+}
+
+.dig label {
+    font-size: 15px;
+}
+
+
+.dig span {
+    font-size: 25px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 375px) {
+  #betsec4 .flower-right {
+    top: -95px;
+    max-width: 50%;
+}
+
+  }
+
+@media only screen and (max-device-width: 1024px) {
+  .m-list {
+  display: block ;
+}
+  .mobile-hide {
+    display: none;
+  }
+
+  #main-header .col-md-6 {
+    margin: 0 auto;
+}
+  p {
+    font-size: 18px;
+  }
+
+  .w-list {
+    display: none;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+  .desktop-hide {
+    display: block;
+  }
+  #return-to-top span {
+    font-size: 34px;
+    font-weight: 700;
+  }
+   #return-to-top {
+    right: 20px;
+}
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-device-width : 768px) and (max-device-width : 1023px){
+/* Styles */
+  #section7, #section6 {
+    height: auto;
+    padding: 150px 0;
+  }
+
+  #section1, #section2, #section3 {
+      padding: 150px 0;
+  }
+
+  .main-header {
+      -webkit-background-size: cover !important;
+      -moz-background-size: cover !important;
+      background-size: cover !important;
+      -o-background-size: cover !important;
+      height: auto;
+      padding: 100px 0;
+  }
+
+
+  #main-header {
+    padding: 0;
+  }
+
+  .mobile-language {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .touch .cd-nav-trigger {
+    display: none;
+  }
+
+  #main-header h1 span {
+      font-size: 20px;
+  }
+
+  #main-header h1 {
+      font-size: 24px !important;
+  }
+
+  #section1 .flower-left {
+      max-width: 70%;
+  }
+
+  #section1 .flower-right {
+      max-width: 50%;
+      bottom: -90px;
+  }
+
+  #section2 h1 {
+    font-size: 50px;
+  }
+
+  #betsec1, #section7 {
+      -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+    background-attachment: fixed !important;
+  }
+
+  #betsec2 .flower-left {
+      top: -170px;
+  }
+
+  #betsec2 .flower-right {
+      bottom: -195px;
+  }
+
+  #section3 h3 {
+      font-size: 45px;
+  }
+
+  #section3 .img-fluid.mx-auto {
+      position: relative;
+      top: 0;
+      right: 0;
+  }
+
+  #betsec3 h1 {
+      font-size: 20px;
+  }
+
+  #betsec3 p {
+      position: initial;
+  }
+
+  #section6 {
+    background: url(/images/default-source/vcon17/sec6-bg.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+    background-attachment: fixed !important;
+  }
+
+  #section6 .ticket-building{
+    display: none;
+  }
+
+  #ticket-snow, #ticket-bird {
+    display: none;
+  }
+
+  #section7 h1 {
+      font-size: 30px;
+  }
+
+  #section7 h1 span {
+      font-size: 45px;
+  }
+
+  .dl-buttons {
+      margin-top: 70px;
+  }
+
+  #betsec4 .flower-right {
+      top: -195px;
+      max-width: 50%;
+  }
+
+
+  .desktop-language {
+    display: none;
+  }
+
+  #section8 {
+    padding: 100px 0;
+  }
+
+  .m-list img.img-responsive {
+      margin: 0 auto;
+      padding-bottom: 30px;
+  }
+
+  .m-list .col-xs-12 img.img-responsive {
+      max-width: 50%;
+  }
+
+  #section3 img.img-responsive.center {
+    max-width: 70%;
+  }
+
+  .dropdown-content {
+    left: 300px;
+    }
+
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .main-header {
+    height: auto;
+  }
+
+  #betsec1 {
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+  }
+
+  #ticket-snow, #ticket-bird {
+    display: none;
+  }
+
+  #betsec3 p {
+    position: initial;
+    text-align: center;
+  }
+  #section6, #section7 {
+    height: auto;
+  }
+
+  #section7 {
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+  }
+
+  #section7 h4 {
+    margin: 20px 12px 0 0;
+  }
+
+  .dl-buttons {
+    margin-top: 70px;
+  }
+
+  .touch .cd-nav-trigger {
+    display: none;
+  }
+  .desktop-language {
+    display: none;
+  }
+  .mobile-language {
+    display: block;
+  }
+  .dropdown-content {
+    left: 435px;
+  }
+
+  #main-header img.img-responsive.center, #section3 img.img-responsive.center {
+    max-width: 80%;
+  }
+  #section8 {
+    padding: 100px 0 200px;
+}
+
+}
+
+
+
+
+@media only screen (min-device-width : 1023px)  {
+.touch .cd-nav-trigger {
+    display: none;
+  }
+
+#section7, #section6 {
+  height: auto;
+  padding: 150px 0;
+}
+
+#section1, #section2, #section3 {
+    padding: 150px 0;
+}
+
+.main-header {
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+    height: auto;
+    padding: 100px 0;
+}
+
+
+#main-header {
+  padding: 0;
+}
+
+.mobile-language {
+  display: block;
+  margin-top: 50px;
+}
+
+.touch .cd-nav-trigger {
+  display: none;
+}
+
+#main-header h1 span {
+    font-size: 20px;
+}
+
+#main-header h1 {
+    font-size: 24px !important;
+}
+
+#section1 .flower-left {
+    max-width: 70%;
+}
+
+#section1 .flower-right {
+    max-width: 50%;
+    bottom: -118px;
+}
+
+#section2 h1 {
+  font-size: 50px;
+}
+
+#betsec1, #section7 {
+    -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+#betsec2 .flower-left {
+    top: -170px;
+}
+
+#betsec2 .flower-right {
+    bottom: -195px;
+}
+
+#section3 h3 {
+    font-size: 45px;
+}
+
+#section3 .img-fluid.mx-auto {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+#betsec3 h1 {
+    font-size: 20px;
+}
+
+#betsec3 p {
+    position: initial;
+}
+
+#section6 {
+  background: url(/images/default-source/vcon17/sec6-bg.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+#section6 .ticket-building{
+  display: none;
+}
+
+#ticket-snow, #ticket-bird {
+  display: none;
+}
+
+#section7 h1 {
+    font-size: 30px;
+}
+
+#section7 h1 span {
+    font-size: 45px;
+}
+
+.dl-buttons {
+    margin-top: 420px;
+}
+
+#betsec4 .flower-right {
+    top: -195px;
+    max-width: 50%;
+}
+
+
+.desktop-language {
+  display: none;
+}
+
+
+
+}
+
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1366px) {
+  .main-header {
+    background: url(/images/default-source/vcon17/rocket.png) no-repeat bottom center scroll;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+    background-attachment: fixed;
+    padding: 100px 0;
+    height: auto;
+}
+#ticket-bird {
+    display: none;
+  }
+  #ticket-snow {
+    display: none;
+  }
+
+
+
+  #betsec1, #section6, #section7 {
+    height: auto;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
+  }
+
+  .dl-buttons {
+    margin-top: 50px;
+  }
+
+  .m-list img.img-responsive {
+      margin: 0 auto;
+      padding-bottom: 30px;
+      max-width: 50%;
+  }
+
+}
+
+
+@media (max-height : 800px) {
+  .main-header {
+    height: auto;
+  }
+  #section6, #section7 {
+    height: auto;
+  }
+
+}

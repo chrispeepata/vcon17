@@ -1234,3 +1234,100 @@ and (max-device-width : 1366px) {
     display: none !important;
   }
 }
+
+
+
+
+/*******************************
+
+TRANSLATIONS DESKTOP
+
+*******************************/
+
+#betsec1 h1.fr {
+    font-size: 70px !important;
+}
+
+#section3 h3.fr {
+    font-size: 50px !important;;
+}
+
+#section6 h1.fr {
+    font-size: 50px !important;
+}
+
+#section6 h3.fr {
+    font-size: 50px !important;
+}
+
+#main-header h1.fr {
+    font-size: 35px !important;
+}
+
+
+
+/*******************************
+
+TRANSLATIONS MOBILE
+
+*******************************/
+
+
+@media only screen and (max-width: 767px) {
+  .tr .dig label {
+    font-size: 12px;
+  }
+
+  #betsec1 h1.fr {
+    font-size: 35px !important;
+  }
+
+  #section3 h3.fr {
+    font-size: 25px !important;
+  }
+  #section6 h1.fr {
+    font-size: 30px !important;
+  }
+  #section6 h3.fr {
+    font-size: 25px !important;
+  }
+  #betsec2 .flower-right {
+    position: absolute;
+    bottom: -71px;
+    max-width: 40%;
+    right: 0;
+  }
+
+
+  #section7 h1.ru, #section7 h1.tr {
+    font-size: 35px;
+  }
+  #section7 h1 span.ru {
+    font-size: 45px;
+  }
+  #section6 h3.ru {
+    font-size: 27px;
+  }
+
+  a.return-vsite.fr {
+    padding: 25px 15px 25px 0;
+    font-size: 12px;
+  }
+  p.vp-name.tg {
+    margin-top: 22px;
+  }
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+  .m-list .col-xs-12 img {
+    padding-bottom: 20px;
+    max-width: 50%;
+    margin: 0 auto;
+  } 
+}
+
