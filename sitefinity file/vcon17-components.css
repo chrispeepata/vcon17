@@ -1088,7 +1088,8 @@ SNS FOOTER
   transform-style: preserve-3d;
     text-align: center;
   margin: 0 auto 40px;
-  z-index: 9999 !important;
+  z-index: 9999 ;
+  position: relative;
 
 }
 .default-state,

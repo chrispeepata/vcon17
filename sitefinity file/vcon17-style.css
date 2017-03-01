@@ -257,6 +257,7 @@ MAIN HEADER
   color: #fff;
   padding-top: 40px;
   z-index: 999;
+  position: relative;
 }
 
 .row.align-items-center {
@@ -671,6 +672,11 @@ SECTION 8
   border: none;
 }
 
+#section8 a {
+  color: #fff;
+  font-size: 20px;
+}
+
 #section8 a h4 {
   color: #fff;
   font-size: 20px;
@@ -678,6 +684,7 @@ SECTION 8
 
 #section8 a:hover, #section8 a:focus {
   text-decoration: none;
+  color: #fff;
 }
 
 #section8 .panel-body {
