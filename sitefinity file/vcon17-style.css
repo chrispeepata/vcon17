@@ -562,6 +562,7 @@ SECTION 6
   padding: 50px 0;
   background-attachment: fixed;
   position: relative;
+  -webkit-transform: translate3d(0,0,0);
 }
 
 #section6 h1 {
@@ -571,6 +572,8 @@ SECTION 6
   margin: 0 auto;
   padding: 20px 0;
   font-size: 100px;
+  position: relative;
+  -webkit-transform: translate3d(0,0,0);
 }
 
 #section6 h3 {
@@ -1034,7 +1037,7 @@ Main components
   padding: .4em .5em;
   color: #fff;
   font-size: 14px;
-  background-color: #57CAEB; 
+  background-color: #57CAEB;
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
   -moz-transition: -moz-transform 0.2s, opacity 0.2s;
   transition: transform 0.2s, opacity 0.2s;
@@ -1211,10 +1214,10 @@ ADDITIONAL SITEFINITY
   }
 }
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) {
   .gear-left, .gear-right {
     max-width: 25%;
@@ -1222,8 +1225,8 @@ ADDITIONAL SITEFINITY
 }
 
 
-@media only screen 
-and (min-device-width : 1024px) 
+@media only screen
+and (min-device-width : 1024px)
 and (max-device-width : 1366px) {
   .gear-left, .gear-right {
     opacity: 0.3;
@@ -1386,16 +1389,16 @@ TRANSLATIONS MOBILE
 
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+  and (orientation: landscape) {
   .m-list .col-xs-12 img {
     padding-bottom: 20px;
     max-width: 50%;
     margin: 0 auto;
-  } 
+  }
 
   .dropdown-content {
     left: 248px;
@@ -1418,11 +1421,11 @@ TRANSLATIONS MOBILE
 
 }
 
-@media only screen 
-  and (min-device-width: 360px) 
-  and (max-device-width: 6640px) 
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 6640px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (orientation: portrait) {
  p.vp-name.mk {
     margin-top: 0;
   }
@@ -1432,11 +1435,11 @@ TRANSLATIONS MOBILE
 
 
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (orientation: portrait) {
 
  p.vp-name.mk {
     margin-top: 22px;
@@ -1454,6 +1457,3 @@ TRANSLATIONS MOBILE
 .isotopeSelector {
     min-height: 270px;
 }
-
-
-
