@@ -678,16 +678,14 @@ and (max-device-width : 1366px) {
     -o-background-size: cover !important;
     background-attachment: fixed;
     padding: 100px 0;
-    height: 100vh;
-}
-#ticket-bird {
+    height: 100vh !important;
+  }
+  #ticket-bird {
     display: none;
   }
   #ticket-snow {
     display: none;
   }
-
-
 
   #betsec1, #section6, #section7 {
     height: auto;
@@ -706,6 +704,7 @@ and (max-device-width : 1366px) {
       padding-bottom: 30px;
       max-width: 50%;
   }
+  
 
 }
 
@@ -715,7 +714,35 @@ and (max-device-width : 1366px) {
     height: auto;
   }
   #section6, #section7 {
-    height: auto;
+    height: auto !important;
   }
 
+  .mobile-hide {
+    display: none;
+  }
+
+  .desktop-hide {
+    display: block;
+  }
+  
+  #main-header h1 {
+    font-size: 30px;
+  }
+
+  .dl-buttons {
+    margin-top: 50px;
+  }
+  #main-header .col-md-6.aos-init.aos-animate {
+    margin: 0 auto;
+  }
+  #section7 h1.ru {
+      font-size: 30px;
+  }
+
+  #section7 h1 span.ru {
+      font-size: 40px;
+  }
 }
+
+
+

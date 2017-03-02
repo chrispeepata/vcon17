@@ -492,10 +492,11 @@ z-index: 104;
 }
 
 .w-list .item:nth-child(15) {
-  z-index: 101;
+  z-index: 99999;
 }
 
 .w-list .item:nth-child(16) {
+  z-index: 99999;
 }
 
 .w-list .vp-name {
@@ -1330,12 +1331,18 @@ TRANSLATIONS MOBILE
   }
   #section6 h3.fr {
     font-size: 25px !important;
+    padding: 36px 0;
   }
   #betsec2 .flower-right {
     position: absolute;
     bottom: -71px;
     max-width: 40%;
     right: 0;
+  }
+
+  #section6 h3.id {
+    font-size: 28px;
+    padding: 35px 0;
   }
 
 
@@ -1347,6 +1354,7 @@ TRANSLATIONS MOBILE
   }
   #section6 h3.ru {
     font-size: 27px;
+      padding: 32px 0;
   }
 
   a.return-vsite.fr {
@@ -1356,6 +1364,25 @@ TRANSLATIONS MOBILE
   p.vp-name.tg {
     margin-top: 22px;
   }
+  p.vp-name.mk {
+    margin-top: 22px;
+  }
+  #section6 h1.ru {
+    font-size: 40px;
+  }
+  ul.filter > li > a {
+    font-size: 14px !important;
+  }
+  .return-vsite.tu {
+    float: right;
+    padding: 25px 13px 25px 0;
+    font-size: 13px;
+}
+
+#section7 h4.ru {
+    width: 72%;
+    font-size: 12px;
+}
 
 }
 
@@ -1373,5 +1400,49 @@ TRANSLATIONS MOBILE
   .dropdown-content {
     left: 248px;
   }
+  #share {
+    position: fixed;
+    top: 60%;
+    z-index: 999;
+  }
+  p.vp-name.tg {
+    margin-top: 0;
+  }
+  #section6 h3.ru {
+    font-size: 45px;
+  }
+  #section6 h3.fr {
+    font-size: 50px !important;
+  }
+
+
 }
+
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 6640px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+ p.vp-name.mk {
+    margin-top: 0;
+  }
+
+
+}
+
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+ p.vp-name.mk {
+    margin-top: 22px;
+  }
+
+}
+
+
 

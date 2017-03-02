@@ -15,7 +15,7 @@ NAVIGATION
 }
 
 #navDraw {
-  z-index: 9999;
+  z-index: 999999;
   overflow: auto;
 }
 
@@ -253,7 +253,7 @@ NAVIGATION
 
 @media only screen and (min-width: 40.063em) {
   .pure-drawer {
-    width: 300px;
+    width: 400px;
   }
 }
 
@@ -1011,7 +1011,7 @@ SNS FOOTER
   display: inline-block;
   font-size: 0px;
   cursor: pointer;
-  margin: 15px 15px;
+  margin: 15px 10px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -1153,8 +1153,13 @@ SNS FOOTER
   transform-style: preserve-3d;
     text-align: center;
   margin: 0 auto 40px;
-  z-index: 9998 ;
+  z-index: 1;
   position: relative;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 
 }
 .default-state,
@@ -1193,6 +1198,9 @@ SNS FOOTER
   -moz-transition: background 250ms ease;
   -o-transition: background 250ms ease;
   transition: background 250ms ease;
+  z-index: 1;
+  position: relative;
+
 }
 
 
@@ -1204,6 +1212,8 @@ SNS FOOTER
   -moz-transition: background 250ms ease;
   -o-transition: background 250ms ease;
   transition: background 250ms ease;
+  z-index: 1;
+  position: relative;
 }
 
 .cube:hover .default-state {
@@ -1397,6 +1407,7 @@ ul.filter > li > a {
   border: 1px solid #fff !important;
   padding: 10px;
   margin-right: 10px;
+  white-space: nowrap;
 }
 
 ul.filter > li > a:hover,ul.filter > li > a:focus {
