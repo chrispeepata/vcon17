@@ -1245,24 +1245,64 @@ TRANSLATIONS DESKTOP
 *******************************/
 
 #betsec1 h1.fr {
-    font-size: 70px !important;
+    font-size: 70px;
 }
 
 #section3 h3.fr {
-    font-size: 50px !important;;
+    font-size: 50px ;;
 }
 
 #section6 h1.fr {
-    font-size: 50px !important;
+    font-size: 50px ;
 }
 
 #section6 h3.fr {
-    font-size: 50px !important;
+    font-size: 50px ;
 }
 
 #main-header h1.fr {
-    font-size: 35px !important;
+    font-size: 35px ;
 }
+
+#betsec1 h1.id {
+    font-size: 50px;
+}
+
+#section3 h3.id {
+    font-size: 35px;
+}
+
+#betsec2 h1.id {
+    font-size: 35px;
+}
+
+#section6 h3.id {
+    font-size: 50px;
+}
+
+#section6 h1.ru {
+    font-size: 70px;
+}
+
+#section6 h3.ru {
+    font-size: 55px;
+}
+
+#section7 h4.ru {
+    max-width: 100%;
+}
+
+.inner-section.gallery {
+  height: 100vh;
+  padding: 200px 0;
+}
+.inner-section.gallery h2 {
+  color: #fff;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 
 
@@ -1329,5 +1369,9 @@ TRANSLATIONS MOBILE
     max-width: 50%;
     margin: 0 auto;
   } 
+
+  .dropdown-content {
+    left: 248px;
+  }
 }
 

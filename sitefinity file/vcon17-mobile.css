@@ -109,11 +109,11 @@ p {
 }
 
 #betsec1 {
+  background: url(/images/default-source/vcon17/inbet1-bg.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   background-size: cover !important;
   -o-background-size: cover !important;
-  background-attachment: fixed !important;
 }
 
 
@@ -145,11 +145,22 @@ p {
   -moz-background-size: cover !important;
   background-size: cover !important;
   -o-background-size: cover !important;
-  background-attachment: fixed !important;
 }
 
 #section6 .ticket-building{
   display: none;
+}
+
+#section6 h3 {
+    font-size: 50px;
+}
+
+#section7 {
+  background: url(/images/default-source/vcon17/sec7-bg.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
 }
 
 #betsec4 .flower-right {
@@ -409,6 +420,10 @@ p {
       font-size: 45px;
   }
 
+  #section7 h4 {
+    max-width: 100%;
+  }
+
   .dl-buttons {
       margin-top: 70px;
   }
@@ -663,7 +678,7 @@ and (max-device-width : 1366px) {
     -o-background-size: cover !important;
     background-attachment: fixed;
     padding: 100px 0;
-    height: auto;
+    height: 100vh;
 }
 #ticket-bird {
     display: none;
