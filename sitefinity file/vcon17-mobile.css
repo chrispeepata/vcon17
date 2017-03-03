@@ -711,7 +711,7 @@ and (max-device-width : 1366px) {
 
 @media (max-height : 800px) {
   .main-header {
-    height: auto;
+    height: auto !important;
   }
   #section6, #section7 {
     height: auto !important;
